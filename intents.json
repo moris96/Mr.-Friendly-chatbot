@@ -1,0 +1,17 @@
+{"intents":  [
+  {"tag":  "greetings",
+  "patterns": ["hello", "hey", "hi", "how are you?", "how is it going?", "how's it going?", "what's up?", "what is up?"],
+    "responses": ["Hello!", "Hey!", "Hi!", "What is up?", "What's up?", "What can I do for you?", "How can I help you?"]},
+
+  {"tag":  "goodbye",
+  "patterns":  ["bye", "goodbye", "see you later", "have a nice day", "have a good day", "see you", "until next time"],
+  "responses":  ["Bye!", "Goodbye!", "Thanks for visiting!", "Have a nice day!", "Have a great day!", "Until next time!"]},
+
+  {"tag":  "name",
+  "patterns":  ["what is your name", "what's your name", "who are you", "what should I call you", "name"],
+  "responses":  ["My name is Mr. Friendly", "Call me Mr. Friendly!", "I'm Mr. Friendly, your personal friendly assistant"]},
+
+  {"tag":  "thanks",
+  "patterns":  ["thanks", "thank you", "that is helpful", "that's helpful", "awesome, thanks", "thank you for helping", "thanks for everything"],
+  "responses":  ["Happy to help!", "Any time!", "Always a pleasure to help!", "My pleasure", "You are welcome", "You're welcome", "Of course, I love helping you!"]}
+]}
